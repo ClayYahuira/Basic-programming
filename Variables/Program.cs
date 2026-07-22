@@ -2,7 +2,7 @@
 string name;
 
 // Ahora le podemos asignar un valor a nuestra variable name.
-name = "carlin";
+name = "Carlin";
 
-// Esta linea hará que el valor de la variable se muestre en la consola.
+// Esta línea hará que el valor de la variable se muestre en la consola.
 Console.WriteLine(name);
