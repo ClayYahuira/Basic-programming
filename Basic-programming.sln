@@ -1,6 +1,12 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "Variables\Variables.csproj", "{876B3858-52B6-4226-A852-048FA150C672}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "01-Variables\Variables.csproj", "{876B3858-52B6-4226-A852-048FA150C672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "02-DataTypes\DataTypes.csproj", "{B3021CF7-67A9-4411-999B-E86014107C22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Variables", "01-Variables", "{DA1DE91E-52F2-48F8-96AF-DB3956B1AB47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-DataTypes", "02-DataTypes", "{DB581EC6-CE35-447C-85DA-3DBA6761E4D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +18,13 @@ Global
 		{876B3858-52B6-4226-A852-048FA150C672}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{876B3858-52B6-4226-A852-048FA150C672}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{876B3858-52B6-4226-A852-048FA150C672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3021CF7-67A9-4411-999B-E86014107C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3021CF7-67A9-4411-999B-E86014107C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3021CF7-67A9-4411-999B-E86014107C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3021CF7-67A9-4411-999B-E86014107C22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{876B3858-52B6-4226-A852-048FA150C672} = {DA1DE91E-52F2-48F8-96AF-DB3956B1AB47}
+		{B3021CF7-67A9-4411-999B-E86014107C22} = {DB581EC6-CE35-447C-85DA-3DBA6761E4D0}
 	EndGlobalSection
 EndGlobal

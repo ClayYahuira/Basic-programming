@@ -16,7 +16,7 @@ explicaciones, en comentarios en español.
 Desde la raíz del repositorio, indica la carpeta del tema:
 
 ```bash
-dotnet run --project Variables
+dotnet run --project 01-Variables
 ```
 
 ## Temas
@@ -24,8 +24,8 @@ dotnet run --project Variables
 | # | Tema | Carpeta | Estado |
 |---|------|---------|--------|
 | 1 | Qué es programar | — | Conceptual (sin código) |
-| 2 | Qué es una variable | `Variables` | ✅ |
-| 3 | Tipos de datos | — | ⏳ |
+| 2 | Qué es una variable | `01-Variables` | ✅ |
+| 3 | Tipos de datos | `02-DataTypes` | 🚧 |
 | 4 | Operadores | — | ⏳ |
 | 5 | if / else | — | ⏳ |
 | 6 | for | — | ⏳ |
@@ -47,5 +47,5 @@ dotnet run --project Variables
 ## Convención
 
 - **Un tema = una carpeta ejecutable** con su propio `Program.cs`.
-- Carpeta en PascalCase con el nombre del tema (ej. `Variables`, `DataTypes`).
+- La carpeta lleva un número de orden más el nombre del tema (ej. `01-Variables`, `02-DataTypes`), para que se ordenen según la ruta. El proyecto (`.csproj`) mantiene solo el nombre (`Variables`), porque no puede empezar con número.
 - Código en inglés; comentarios y mensajes de consola en español.
