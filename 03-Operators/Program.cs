@@ -1,5 +1,4 @@
 // OPERADORES
-// Todo el código del post, para verlo funcionar en la consola.
 
 // --- Operadores aritméticos ---
 Console.WriteLine("== Operadores aritméticos ==");
