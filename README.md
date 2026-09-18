@@ -19,31 +19,6 @@ Desde la raíz del repositorio, indica la carpeta del tema:
 dotnet run --project 01-Variables
 ```
 
-## Temas
-
-| # | Tema | Carpeta | Estado |
-|---|------|---------|--------|
-| 1 | Qué es programar | — | Conceptual (sin código) |
-| 2 | Qué es una variable | `01-Variables` | ✅ |
-| 3 | Tipos de datos | `02-DataTypes` | 🚧 |
-| 4 | Operadores | — | ⏳ |
-| 5 | if / else | — | ⏳ |
-| 6 | for | — | ⏳ |
-| 7 | while / do while | — | ⏳ |
-| 8 | Arrays | — | ⏳ |
-| 9 | Strings | — | ⏳ |
-| 10 | Métodos | — | ⏳ |
-| 11 | Parámetros y retorno | — | ⏳ |
-| 12 | Scope | — | ⏳ |
-| 13 | Excepciones básicas | — | ⏳ |
-| 14 | Entrada y salida por consola | — | ⏳ |
-| 15 | Introducción a POO | — | ⏳ |
-| 16 | Clases | — | ⏳ |
-| 17 | Objetos | — | ⏳ |
-| 18 | Constructores | — | ⏳ |
-| 19 | Propiedades | — | ⏳ |
-| 20 | Encapsulación básica | — | ⏳ |
-
 ## Convención
 
 - **Un tema = una carpeta ejecutable** con su propio `Program.cs`.
